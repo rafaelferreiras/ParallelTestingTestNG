@@ -1,6 +1,6 @@
 {
-  "LoginValid": {
-    "username": "testing@gmail.com",
+  "valid": {
+    "username": "testing@qa.com",
     "password": "Test123456",
     "message": "Welcome RAFAEL",
     

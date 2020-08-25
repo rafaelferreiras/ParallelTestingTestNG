@@ -1,6 +1,7 @@
 
 package page_objects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -11,9 +12,9 @@ import managers.BasePage;
 public class LogInBankPage extends BasePage {
 
 	public LogInBankPage() {
-
+		
 		PageFactory.initElements(driverBasePage, this);
-
+		
 	}
 
 	@FindBy(how = How.ID, using = "username")
@@ -49,7 +50,7 @@ public class LogInBankPage extends BasePage {
 		return this;
 	}
 
-	public LogInBankPage clicarSumit() {
+	public LogInBankPage clicarSubmit() {
 
 		click(btn_Submit);
 		return this;
@@ -57,7 +58,7 @@ public class LogInBankPage extends BasePage {
 
 	public String verifySucessLogin() {
 
-		return isElementClickable(sucess_login).getText();
+		return getText(sucess_login);
 
 	}
 

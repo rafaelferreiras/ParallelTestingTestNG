@@ -1,0 +1,9 @@
+{
+ 
+   "NewSavingsAccountDepositZero": {
+    "accountName": "DepositZero",
+    "initialDeposit": "0.00",
+    "message": "The initial deposit ($0.00) entered does not meet the minimum amount ($25.00) required. Please enter a valid deposit amount.",
+  }
+}
+

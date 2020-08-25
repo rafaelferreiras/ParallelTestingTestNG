@@ -1,172 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginBank" duration-ms="57112" started-at="2020-08-07T02:36:13Z" finished-at="2020-08-07T02:37:10Z">
+  <suite name="LoginBank" duration-ms="145107" started-at="2020-08-25T03:41:11Z" finished-at="2020-08-25T03:43:36Z">
     <groups>
     </groups>
-    <test name="Test Login on Chrome" duration-ms="31748" started-at="2020-08-07T02:36:13Z" finished-at="2020-08-07T02:36:45Z">
-      <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="before" is-config="true" duration-ms="14979" started-at="2020-08-06T23:36:13Z" finished-at="2020-08-06T23:36:28Z">
+    <test name="Test SavingsAdd on Chrome" duration-ms="137340" started-at="2020-08-25T03:41:11Z" finished-at="2020-08-25T03:43:29Z">
+      <class name="tests.TestBank">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@3b2da18f]" name="before" is-config="true" duration-ms="15122" started-at="2020-08-25T00:41:11Z" finished-at="2020-08-25T00:41:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="2" started-at="2020-08-06T23:36:28Z" finished-at="2020-08-06T23:36:28Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@3b2da18f]" name="login" is-config="true" duration-ms="6216" started-at="2020-08-25T00:41:26Z" finished-at="2020-08-25T00:41:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessEmpty" duration-ms="3851" started-at="2020-08-06T23:36:28Z" finished-at="2020-08-06T23:36:32Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver1()[pri:0, instance:tests.TestBank@3b2da18f]" name="accountTypeSavingsOver1" duration-ms="11658" started-at="2020-08-25T00:41:33Z" finished-at="2020-08-25T00:41:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="3" started-at="2020-08-06T23:36:32Z" finished-at="2020-08-06T23:36:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessInvalid" duration-ms="5907" started-at="2020-08-06T23:36:32Z" finished-at="2020-08-06T23:36:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="10" started-at="2020-08-06T23:36:38Z" finished-at="2020-08-06T23:36:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessSuccessfully" duration-ms="6275" started-at="2020-08-06T23:36:38Z" finished-at="2020-08-06T23:36:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="after" is-config="true" duration-ms="698" started-at="2020-08-06T23:36:44Z" finished-at="2020-08-06T23:36:45Z">
+        </test-method> <!-- accountTypeSavingsOver1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@3b2da18f]" name="after" is-config="true" duration-ms="931" started-at="2020-08-25T00:41:44Z" finished-at="2020-08-25T00:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- tests.TestLoginBank -->
-    </test> <!-- Test Login on Chrome -->
-    <test name="Test Login on FireFox" duration-ms="33405" started-at="2020-08-07T02:36:13Z" finished-at="2020-08-07T02:36:47Z">
-      <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@a4102b8]" name="before" is-config="true" duration-ms="12631" started-at="2020-08-06T23:36:13Z" finished-at="2020-08-06T23:36:26Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@3b2da18f]" name="before" is-config="true" duration-ms="16299" started-at="2020-08-25T00:41:45Z" finished-at="2020-08-25T00:42:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Fire fox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="121" started-at="2020-08-06T23:36:26Z" finished-at="2020-08-06T23:36:26Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@3b2da18f]" name="login" is-config="true" duration-ms="6005" started-at="2020-08-25T00:42:01Z" finished-at="2020-08-25T00:42:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessEmpty" duration-ms="5031" started-at="2020-08-06T23:36:26Z" finished-at="2020-08-06T23:36:31Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver2()[pri:0, instance:tests.TestBank@3b2da18f]" name="accountTypeSavingsOver2" duration-ms="13205" started-at="2020-08-25T00:42:07Z" finished-at="2020-08-25T00:42:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="7" started-at="2020-08-06T23:36:31Z" finished-at="2020-08-06T23:36:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessInvalid" duration-ms="4082" started-at="2020-08-06T23:36:31Z" finished-at="2020-08-06T23:36:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="7" started-at="2020-08-06T23:36:35Z" finished-at="2020-08-06T23:36:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessSuccessfully" duration-ms="6461" started-at="2020-08-06T23:36:35Z" finished-at="2020-08-06T23:36:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="after" is-config="true" duration-ms="5025" started-at="2020-08-06T23:36:42Z" finished-at="2020-08-06T23:36:47Z">
+        </test-method> <!-- accountTypeSavingsOver2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@3b2da18f]" name="after" is-config="true" duration-ms="903" started-at="2020-08-25T00:42:21Z" finished-at="2020-08-25T00:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- tests.TestLoginBank -->
-    </test> <!-- Test Login on FireFox -->
-    <test name="Test Login on IE" duration-ms="36349" started-at="2020-08-07T02:36:13Z" finished-at="2020-08-07T02:36:49Z">
-      <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="before" is-config="true" duration-ms="5836" started-at="2020-08-06T23:36:13Z" finished-at="2020-08-06T23:36:19Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@3b2da18f]" name="before" is-config="true" duration-ms="14160" started-at="2020-08-25T00:42:22Z" finished-at="2020-08-25T00:42:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[InternetExplore]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="88" started-at="2020-08-06T23:36:19Z" finished-at="2020-08-06T23:36:19Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@3b2da18f]" name="login" is-config="true" duration-ms="5681" started-at="2020-08-25T00:42:36Z" finished-at="2020-08-25T00:42:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessEmpty" duration-ms="11317" started-at="2020-08-06T23:36:19Z" finished-at="2020-08-06T23:36:30Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver3()[pri:0, instance:tests.TestBank@3b2da18f]" name="accountTypeSavingsOver3" duration-ms="11226" started-at="2020-08-25T00:42:41Z" finished-at="2020-08-25T00:42:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="61" started-at="2020-08-06T23:36:30Z" finished-at="2020-08-06T23:36:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessInvalid" duration-ms="9357" started-at="2020-08-06T23:36:31Z" finished-at="2020-08-06T23:36:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="2" started-at="2020-08-06T23:36:40Z" finished-at="2020-08-06T23:36:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessSuccessfully" duration-ms="8990" started-at="2020-08-06T23:36:40Z" finished-at="2020-08-06T23:36:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="after" is-config="true" duration-ms="627" started-at="2020-08-06T23:36:49Z" finished-at="2020-08-06T23:36:49Z">
+        </test-method> <!-- accountTypeSavingsOver3 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@3b2da18f]" name="after" is-config="true" duration-ms="725" started-at="2020-08-25T00:42:53Z" finished-at="2020-08-25T00:42:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- tests.TestLoginBank -->
-    </test> <!-- Test Login on IE -->
-    <test name="Test SavingsAdd on Chrome" duration-ms="25192" started-at="2020-08-07T02:36:45Z" finished-at="2020-08-07T02:37:10Z">
-      <class name="tests.TestSavingsAdd">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="before" is-config="true" duration-ms="14121" started-at="2020-08-06T23:36:45Z" finished-at="2020-08-06T23:36:59Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@3b2da18f]" name="before" is-config="true" duration-ms="15882" started-at="2020-08-25T00:42:53Z" finished-at="2020-08-25T00:43:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="init" is-config="true" duration-ms="10389" started-at="2020-08-06T23:36:59Z" finished-at="2020-08-06T23:37:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SavingsAdd]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@3b2da18f]" name="login" is-config="true" duration-ms="6711" started-at="2020-08-25T00:43:09Z" finished-at="2020-08-25T00:43:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="Abc()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="Abc" duration-ms="4" started-at="2020-08-06T23:37:10Z" finished-at="2020-08-06T23:37:10Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver4()[pri:0, instance:tests.TestBank@3b2da18f]" name="accountTypeSavingsOver4" duration-ms="11836" started-at="2020-08-25T00:43:16Z" finished-at="2020-08-25T00:43:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Abc -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="after" is-config="true" duration-ms="671" started-at="2020-08-06T23:37:10Z" finished-at="2020-08-06T23:37:10Z">
+        </test-method> <!-- accountTypeSavingsOver4 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@3b2da18f]" name="after" is-config="true" duration-ms="743" started-at="2020-08-25T00:43:28Z" finished-at="2020-08-25T00:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- tests.TestSavingsAdd -->
+      </class> <!-- tests.TestBank -->
     </test> <!-- Test SavingsAdd on Chrome -->
+    <test name="Test SavingsAdd on IE" duration-ms="142252" started-at="2020-08-25T03:41:11Z" finished-at="2020-08-25T03:43:33Z">
+      <class name="tests.TestBank">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@a4102b8]" name="before" is-config="true" duration-ms="16996" started-at="2020-08-25T00:41:11Z" finished-at="2020-08-25T00:41:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@a4102b8]" name="login" is-config="true" duration-ms="7039" started-at="2020-08-25T00:41:28Z" finished-at="2020-08-25T00:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver1()[pri:0, instance:tests.TestBank@a4102b8]" name="accountTypeSavingsOver1" duration-ms="13024" started-at="2020-08-25T00:41:35Z" finished-at="2020-08-25T00:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@a4102b8]" name="after" is-config="true" duration-ms="637" started-at="2020-08-25T00:41:48Z" finished-at="2020-08-25T00:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@a4102b8]" name="before" is-config="true" duration-ms="16524" started-at="2020-08-25T00:41:49Z" finished-at="2020-08-25T00:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@a4102b8]" name="login" is-config="true" duration-ms="5413" started-at="2020-08-25T00:42:05Z" finished-at="2020-08-25T00:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver2()[pri:0, instance:tests.TestBank@a4102b8]" name="accountTypeSavingsOver2" duration-ms="11849" started-at="2020-08-25T00:42:11Z" finished-at="2020-08-25T00:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@a4102b8]" name="after" is-config="true" duration-ms="1274" started-at="2020-08-25T00:42:23Z" finished-at="2020-08-25T00:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@a4102b8]" name="before" is-config="true" duration-ms="15486" started-at="2020-08-25T00:42:24Z" finished-at="2020-08-25T00:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@a4102b8]" name="login" is-config="true" duration-ms="5222" started-at="2020-08-25T00:42:39Z" finished-at="2020-08-25T00:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver3()[pri:0, instance:tests.TestBank@a4102b8]" name="accountTypeSavingsOver3" duration-ms="12072" started-at="2020-08-25T00:42:45Z" finished-at="2020-08-25T00:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver3 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@a4102b8]" name="after" is-config="true" duration-ms="849" started-at="2020-08-25T00:42:57Z" finished-at="2020-08-25T00:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@a4102b8]" name="before" is-config="true" duration-ms="17277" started-at="2020-08-25T00:42:58Z" finished-at="2020-08-25T00:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@a4102b8]" name="login" is-config="true" duration-ms="6067" started-at="2020-08-25T00:43:15Z" finished-at="2020-08-25T00:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver4()[pri:0, instance:tests.TestBank@a4102b8]" name="accountTypeSavingsOver4" duration-ms="11833" started-at="2020-08-25T00:43:21Z" finished-at="2020-08-25T00:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver4 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@a4102b8]" name="after" is-config="true" duration-ms="648" started-at="2020-08-25T00:43:33Z" finished-at="2020-08-25T00:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.TestBank -->
+    </test> <!-- Test SavingsAdd on IE -->
+    <test name="Test SavingsAdd on FF" duration-ms="145107" started-at="2020-08-25T03:41:11Z" finished-at="2020-08-25T03:43:36Z">
+      <class name="tests.TestBank">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@4f638935]" name="before" is-config="true" duration-ms="14353" started-at="2020-08-25T00:41:11Z" finished-at="2020-08-25T00:41:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@4f638935]" name="login" is-config="true" duration-ms="5500" started-at="2020-08-25T00:41:26Z" finished-at="2020-08-25T00:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver1()[pri:0, instance:tests.TestBank@4f638935]" name="accountTypeSavingsOver1" duration-ms="12413" started-at="2020-08-25T00:41:31Z" finished-at="2020-08-25T00:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@4f638935]" name="after" is-config="true" duration-ms="4517" started-at="2020-08-25T00:41:43Z" finished-at="2020-08-25T00:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@4f638935]" name="before" is-config="true" duration-ms="15026" started-at="2020-08-25T00:41:48Z" finished-at="2020-08-25T00:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@4f638935]" name="login" is-config="true" duration-ms="5890" started-at="2020-08-25T00:42:03Z" finished-at="2020-08-25T00:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver2()[pri:0, instance:tests.TestBank@4f638935]" name="accountTypeSavingsOver2" duration-ms="11204" started-at="2020-08-25T00:42:09Z" finished-at="2020-08-25T00:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@4f638935]" name="after" is-config="true" duration-ms="5489" started-at="2020-08-25T00:42:20Z" finished-at="2020-08-25T00:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@4f638935]" name="before" is-config="true" duration-ms="13472" started-at="2020-08-25T00:42:26Z" finished-at="2020-08-25T00:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@4f638935]" name="login" is-config="true" duration-ms="5356" started-at="2020-08-25T00:42:39Z" finished-at="2020-08-25T00:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver3()[pri:0, instance:tests.TestBank@4f638935]" name="accountTypeSavingsOver3" duration-ms="11567" started-at="2020-08-25T00:42:44Z" finished-at="2020-08-25T00:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver3 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@4f638935]" name="after" is-config="true" duration-ms="6185" started-at="2020-08-25T00:42:56Z" finished-at="2020-08-25T00:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestBank@4f638935]" name="before" is-config="true" duration-ms="14022" started-at="2020-08-25T00:43:02Z" finished-at="2020-08-25T00:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestBank@4f638935]" name="login" is-config="true" duration-ms="5721" started-at="2020-08-25T00:43:16Z" finished-at="2020-08-25T00:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accountTypeSavingsOver4()[pri:0, instance:tests.TestBank@4f638935]" name="accountTypeSavingsOver4" duration-ms="11182" started-at="2020-08-25T00:43:22Z" finished-at="2020-08-25T00:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountTypeSavingsOver4 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestBank@4f638935]" name="after" is-config="true" duration-ms="3158" started-at="2020-08-25T00:43:33Z" finished-at="2020-08-25T00:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.TestBank -->
+    </test> <!-- Test SavingsAdd on FF -->
   </suite> <!-- LoginBank -->
 </testng-results>

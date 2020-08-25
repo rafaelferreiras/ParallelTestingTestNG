@@ -5,15 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage extends BaseTestFactory {
+
+public class BasePage {
 
 	protected WebDriver driverBasePage;
 	protected WebDriverWait wait;
+	private BaseTestFactory baseTest;
+	
+	
+	
 
 	public BasePage() {
 
-		this.driverBasePage = getDriver();
-		wait = new WebDriverWait(driverBasePage, 10);
+		baseTest = new BaseTestFactory();
+		this.driverBasePage = baseTest.getDriver();
+		wait = new WebDriverWait(driverBasePage, 20);
 	}
 
 	// text
@@ -21,6 +27,12 @@ public class BasePage extends BaseTestFactory {
 
 		isElementClickable(element).sendKeys(text);
 	}
+	
+	public String getText(WebElement element) {
+		
+		return isElementClickable(element).getText();
+	}
+	
 
 	// click
 	public void click(WebElement element) {

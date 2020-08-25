@@ -4,8 +4,8 @@ public enum BrowserType {
 
 	CHROME(new String[] { "chrome", "google chrome", "googlechrome" }), 
 	FIREFOX(new String[] { "firefox", "fire fox" }),
-	INTERNETEXPLORE(new String[] { "internetexplore", "internet explorer", "ie" }),
-	EDGE(new String[] { "edge", "microsoft edge", "microsoftedge" });
+	INTERNETEXPLORE(new String[] { "internetexplore", "internet explorer", "ie" });
+	//EDGE(new String[] { "edge", "microsoft edge", "microsoftedge" });
 
 	private String[] aliases;
 
@@ -25,6 +25,6 @@ public enum BrowserType {
 	}
 
 	private static IllegalArgumentException driversTypeNotFound(String ct) {
-		return new IllegalArgumentException(("O driver selecionado invalido! -> [" + ct + "]"));
+		return new IllegalArgumentException(("driver invalido! -> [" + ct + "]"));
 	}
 }

@@ -5,9 +5,11 @@
     <classes>
       <class name="tests.TestLoginBank">
         <methods>
-          <include name="verifyAcessEmpty"/>
-          <include name="verifyAcessInvalid"/>
-          <include name="verifyAcessSuccessfully"/>
+          <include name="accountTypeSavingsOver2"/>
+          <include name="accountTypeSavingsOver3"/>
+          <include name="accountTypeSavingsOver1"/>
+          <include name="login"/>
+          <include name="after"/>
         </methods>
       </class> <!-- tests.TestLoginBank -->
     </classes>
