@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import enums.BrowserType;
 
@@ -47,14 +47,14 @@ public class BaseTestFactory {
 		threadDriver.remove();
 	}
 
-	@BeforeMethod
+	@BeforeTest
 	@Parameters({ "DriverType" })
 	public void before(String driverType) {
 		setWebDriver(driverType);
 		getHome();
 	}
 
-	@AfterMethod
+	@AfterTest
 	public void after() {
 		RemoveWebDriver();
 

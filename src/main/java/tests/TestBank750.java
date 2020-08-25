@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import managers.BaseTestFactory;
@@ -12,11 +12,11 @@ public class TestBank750 extends BaseTestFactory {
 	LogInBankPage logInBankPage;
 	SavingAddPage savingAdd;
 
-	@BeforeMethod
+	@BeforeClass
 	public void login() {
 
 		logInBankPage = new LogInBankPage();
-		logInBankPage.preencherLogin("testing@qa.com").preencheSenha("Test123456").clicarSubmit();
+		logInBankPage.preencherLogin("testing@qa.com.br").preencheSenha("Test123456").clicarSubmit();
 	}
 
 	@Test

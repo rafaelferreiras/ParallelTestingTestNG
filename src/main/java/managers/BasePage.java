@@ -4,21 +4,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import static managers.BaseTestFactory.getDriver;
 
 
 public class BasePage {
 
 	protected WebDriver driverBasePage;
 	protected WebDriverWait wait;
-	private BaseTestFactory baseTest;
+
 	
 	
 	
 
 	public BasePage() {
 
-		baseTest = new BaseTestFactory();
-		this.driverBasePage = baseTest.getDriver();
+		
+		this.driverBasePage = getDriver();
 		wait = new WebDriverWait(driverBasePage, 20);
 	}
 
